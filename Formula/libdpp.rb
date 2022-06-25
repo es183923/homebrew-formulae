@@ -3,7 +3,7 @@ class Libdpp < Formula
   homepage "https://dpp.dev/"
   url "https://github.com/brainboxdotcc/DPP/archive/refs/tags/v10.0.11.tar.gz"
   sha256 "33463292f3030eabf70ab54ff09475945b4d87a9c6e428c712015cba93a1ed96"
-  license "Apache License 2.0"
+  license "Apache-2.0"
 
   depends_on "cmake" => :build
   depends_on "opus" => :build
