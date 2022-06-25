@@ -12,7 +12,7 @@ class Libdpp < Formula
     system "cmake", "-S", ".", "-B", "./build", *std_cmake_args
     system "cmake", "--build", "./build"
     system "cd", "build"
-    system "sudo", "make", "install"
+    system "make", "install"
   end
 
   # test do
