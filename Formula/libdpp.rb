@@ -9,9 +9,9 @@ class Libdpp < Formula
   depends_on "opus" => :build
 
   def install
-    system "cmake", "-S", ".", "-B", "./build", *std_cmake_args
+    system "cmake", "-B", "./build", *std_cmake_args
     system "cmake", "--build", "./build"
-    system "cd", "build"
+    Dir.chdir('build')
     system "make", "install"
   end
 
