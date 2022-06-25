@@ -1,4 +1,4 @@
-class Dxx < Formula
+class Libdpp < Formula
   desc "D++: A C++ Discord API Library for Bots"
   homepage "https://dpp.dev/"
   url "https://github.com/brainboxdotcc/DPP/archive/refs/tags/v10.0.11.tar.gz"
